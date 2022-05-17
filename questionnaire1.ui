@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>questionnaire1</class>
+ <widget class="QDialog" name="questionnaire1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>751</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>3</horstretch>
+    <verstretch>3</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowOpacity">
+   <double>500.000000000000000</double>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <widget class="QLabel" name="Label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>500</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>4) Do you buy in a fast-fashion firms?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>410</y>
+     <width>500</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>5) Do you shop second- hand clothes?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>240</y>
+     <width>500</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>3) Do you know ways you can eat sustainability?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>281</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1) How many times per a week do you eat meat? </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>300</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>2) How many vegetables and fruits do you eat?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>360</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(217, 245, 255);</string>
+   </property>
+   <property name="text">
+    <string>Your level of impact on the environment</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. more than 3 times
+2. 2-3 times
+3. 0-2 times</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1.  I don’t eat vegetables and fruits
+2. I eat a little bit
+3. Every day I eat vegtables and fruits</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. I don’t know nothing
+2. I know some ways but not enough
+3. I know very well</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. All my clothes are from these firms
+2. Sometimes I buy from these firms
+3. I do not buy in these firms</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>430</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. No
+2. Yes</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>460</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>620</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(217, 245, 255);</string>
+   </property>
+   <property name="text">
+    <string>Continue to explore more</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>430</y>
+     <width>451</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 85, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(217, 245, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>Questionnaire Instructions</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>480</y>
+     <width>500</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>6) Do you know how to reduce
+ your wardrobe's impact has on climate?</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>560</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>510</y>
+     <width>200</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. I don’t know nothing
+2. I know some ways but not enough
+3. I know very well</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>630</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>580</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>7) Do you recycle papers?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>600</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. No
+2. Yes</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>60</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string> 8) Do you use many papers at your work?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>160</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1.  from a paper
+2. From a computer</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question9">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>200</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>140</y>
+     <width>500</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>9) Do you prefer reading from a computer or from a paper?</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question8">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>120</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>80</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. Yes
+2. No</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>220</y>
+     <width>500</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>10) Do you have a private car?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>240</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. Yes
+2. No</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question10">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>280</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>310</y>
+     <width>500</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>11) For long distance, do you prefer to drive with your car or train?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>330</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. Car
+2. Train</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question11">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>370</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>400</y>
+     <width>500</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>12) For shorter distances, do you prefer driving or walking?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>420</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. Driving
+2. Walking</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question12">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>460</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>50</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>13) Do you have a bicycle in your home?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>70</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. No
+2. Yes</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question13">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>110</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>150</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>14) Do you have bitcoin?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>170</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. Yes
+2. No</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question14">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>210</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_27">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>240</y>
+     <width>391</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>15) Do you conscious of the huge impact
+      Bitcoin has on the climate and the environment?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_28">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>280</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="text">
+    <string>1. No
+2. Yes</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question15">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>320</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="submit">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>340</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(217, 245, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>submit</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>question1</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>question3</tabstop>
+  <tabstop>question2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
